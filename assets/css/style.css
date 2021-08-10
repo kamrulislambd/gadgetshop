@@ -6,7 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;;
 }
 section{
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 .header-area .navbar-nav {
     font-size: 20px;
@@ -28,12 +28,17 @@ li.nav-item {
 }
 .btn-buy{
     text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
     color: #fff;
     background-color: #1f1f1f;
-    padding: 10px 20px;
+    padding: 15px 30px;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+.btn-buy:hover{
+    background-color: dimgray;
 }
 .carousel-control-next-icon,
 .carousel-control-prev-icon{
@@ -53,4 +58,41 @@ li.nav-item {
   font-size: 55px;
   color: black;
   margin-left: -250px;
+}
+.product-cate a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    color: #ff9d00;
+}
+.product-cate a:hover{
+    text-decoration: underline;
+}
+.card-body h5{
+    font-weight: 500;
+    color: #1f1f1f;
+    font-size: 24px;
+}
+.card-body p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #707070;
+}
+.card-body a{
+    text-decoration: none;
+    color: #fff;
+}
+h1.cat-title::after {
+    content: ' ';  
+    color: #FF9C35ed;
+    display: block;
+    text-align: center;
+    border: 6px solid;
+    border-radius: 60px;
+    width: 190px;
+    margin-left: 43%;
+    margin-top: 15px;
+}
+.cat-title{
+    padding: 120px 0;
 }
